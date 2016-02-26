@@ -2,15 +2,15 @@ class Spades < Formula
   desc "SPAdes: de novo genome assembly"
   homepage "http://bioinf.spbau.ru/spades/"
   # tag "bioinformatics"
-  # doi "10.1089/cmb.2012.0021"
+  # doi "10.1089/cmb.2012.0021"i
   url "http://spades.bioinf.spbau.ru/release3.7.0/SPAdes-3.7.0.tar.gz"
-  sha256 "f07377f148d13060e01747405eef90ee8dc8749ca4a772ec0828c4c654fbcbf7"
+  sha256 "4d9b114150c4d37084967a5a3264d36a480394996197949fb72402f2d65b42a3"
 
   bottle do
     cellar :any
-    sha256 "3fd5d0754a3d84c3a99af59424715336d9fcbad4f229d6c8f70319c560a0ee8f" => :el_capitan
-    sha256 "fdc450b6256f2e28afc79e6b7d3330d657ae5759626674339b650abe89d691d5" => :yosemite
-    sha256 "7826fa02909ef6373bab4d4181ab0af0a9668d94d39e59cf15ae11e5f7ee9931" => :mavericks
+    sha256 "c5c231cda3e42b5d163333c4dc85fb658dc601291b15dc14c4ae6499d65c8b0f" => :el_capitan
+    sha256 "4c212477b615fb38507600b8b7ce539474fb115dc90155c6de312c37846b46a5" => :yosemite
+    sha256 "81c4defa79e18fff8dad67052d69b0c08ede1fc3e4257c9f39a67c1c9dfa6a5a" => :mavericks
   end
 
   depends_on "cmake" => :build
